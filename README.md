@@ -1,35 +1,29 @@
 Spotify-Inspired Music Player
 A browser-based music player built with HTML, CSS, and vanilla JavaScript. It includes a selectable playlist, playback controls, album artwork, and a seekable progress bar.
-<p align="center">
-  <a href="https://spotify-music-player-hh8a.onrender.com/"><strong>▶ Open the Live Music Player</strong></a>
-  &nbsp; · &nbsp;
-  <a href="https://github.com/nitinkanasnale93/spotify-project">View Source Code</a>
-</p>
-
+Live Demo
+Open the Music Player
 Features
 - Play and pause the selected song.
-- Choose a track from the playlist.
+- Choose a song from the playlist.
 - Skip to the next or previous track.
-- Click or drag the progress slider to seek through a song.
+- Click or drag the progress bar to seek through a song.
 - Display track titles and album artwork.
 - Show playback indicators in the player interface.
 Tech Stack
-- HTML5 — page structure and audio player interface
+- HTML5 — page structure and player interface
 - CSS3 — layout and styling
-- JavaScript — playlist interaction, playback controls, and progress updates
-- HTML Audio API — browser-based audio playback and seeking
+- JavaScript — playlist interactions, playback controls, and progress updates
+- HTML Audio API — audio playback and seeking in the browser
 - Font Awesome — player-control icons
 - Git and GitHub — version control and source-code hosting
 - Render — static-site deployment
-Live Demo
-Try it here: https://spotify-music-player-hh8a.onrender.com/
 Run Locally
-1. Clone the repository:
+1. Clone this repository:
    git clone https://github.com/nitinkanasnale93/spotify-project.git
-2. Open the project folder:
+2. Move into the project folder:
    cd spotify-project
 3. Open index.html in your browser, or use the Live Server extension in VS Code.
-No build command or package installation is required for this static project. Keep the HTML file, JavaScript, stylesheet, audio files, and image assets in their expected relative locations so the playlist can load correctly.
+This is a static website, so no build command or package installation is required. Keep the HTML, CSS, JavaScript, audio, and image files in their expected relative locations so the playlist loads correctly.
 Project Structure
 spotify-project/
 ├── index.html       # Music-player interface
@@ -43,7 +37,7 @@ spotify-project/
 What I Practised
 - Selecting and updating DOM elements with JavaScript
 - Handling click and input events
-- Controlling audio playback with HTMLAudioElement
+- Controlling playback with HTMLAudioElement
 - Updating playback progress using currentTime and duration
 - Connecting a static website to GitHub and deploying it on Render
 Future Improvements
