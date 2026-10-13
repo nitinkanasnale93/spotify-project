@@ -52,8 +52,12 @@ audioElement.addEventListener('timeupdate', () => {
 });
 
 // Seek song based on progress bar
-myProgressBar.addEventListener('change', () => {
-    audioElement.currentTime = myProgressBar.value * audioElement.duration / 100;
+// Seek song based on progress bar
+myProgressBar.addEventListener('input', () => {
+    if (audioElement.duration > 0) {
+        audioElement.currentTime =
+            (myProgressBar.value / 100) * audioElement.duration;
+    }
 });
 
 // Handle song click
